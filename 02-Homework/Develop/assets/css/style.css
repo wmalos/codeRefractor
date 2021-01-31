@@ -53,6 +53,7 @@ a {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
 p {
     font-size: 16px;
 }
@@ -69,7 +70,7 @@ p {
 .float-left {
     float: left;
     margin-right: 25px;
-    max-height: 200px:
+    max-height: 200px;
 }
 
 .float-right {
@@ -99,12 +100,11 @@ p {
 }
 
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
-        margin-bottom: 10px;
-        text-align: center;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
-}
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+.benefits img{
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -122,8 +122,6 @@ p {
     text-align: center;
 }
 
-
 .footer h2 {
     font-size: 20px;
 }
-
