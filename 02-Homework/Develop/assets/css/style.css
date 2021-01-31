@@ -125,3 +125,24 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+
+@media screen and (max-width: 860px) {
+  body {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      background-color: #2a607c;
+}
+  .content img {
+    display: flex;
+    justify-content: right;
+    max-width: 100px;
+    max-height: 75px;
+}
+  .benefits {
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+    background-color: #2a607c;
+}
