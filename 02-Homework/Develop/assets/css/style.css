@@ -127,11 +127,13 @@ p {
 }
 
 @media screen and (max-width: 860px) {
+
   body {
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
       justify-content: flex-end;
+      align-content: space-between;
       background-color: #2a607c;
 }
   .content img {
@@ -143,6 +145,7 @@ p {
   .benefits {
     display: flex;
     flex-direction: row;
-    margin-top: 200px;
+    margin-top: 50px;
     background-color: #2a607c;
+}
 }
